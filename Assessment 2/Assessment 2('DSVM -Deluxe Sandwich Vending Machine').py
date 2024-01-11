@@ -9,9 +9,7 @@ def funct():
     while is_quit == False:
         
         # initial message when the code runs
-        print("\nWelcome to the DSVM - Deluxe Sandwich Vending Machine"
-            '\nwhat would you like?\n'
-            )
+        print('\nwhat would you like?\n')
         print('code: Price:\tItem Name:\n')
         
         # the code to list down every item inside the menu
@@ -58,9 +56,10 @@ def funct():
 
 #the initial greeting or statement when the program starts
 print('Welcome to Deluxe Sandwich Vending Machine'
-      ,'\n\nenter a for Regular Sandwiches'
-             '\nenter b for Ice cream Sandwiches'
-             '\nenter c for Drinks')
+        '\nplease pick a category of menu you would like.'
+        '\n\nenter a for Regular Sandwiches'
+        '\nenter b for Ice cream Sandwiches'
+        '\nenter c for Drinks')
 
 pick = input('\nenter the letter of a category would like to check and buy:')
 
